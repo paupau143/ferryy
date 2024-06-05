@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"  rel="stylesheet"/>
+    <title>Ferry Jane Personal Portfolio</title>
+    <link rel="shortcut icon" href="images/FJ Logo.png" type="image/x-icon">
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#home">Ferry Jane</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#interest">Hobbies & Interest</a></li>
+          <li><a href="#dream-job">Dream Job</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <br>
+    <div id="home">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">HELLO</p>
+          <h1 class="title">
+            I'm <span>Ferry Jane<br /><span class="typed-text"></span>
+          </h1>
+          <br>
+          <p class="description">
+            Mabuhay! Welcome to my Personal Portfolio Website!
+            <br><br>
+            As an aspiring graphic designer in my first year of studying for a Bachelor of Science in Information Technology at Laguna University, I am dedicated to developing my graphic design skills. I am enthusiastic about merging my technical knowledge from my IT studies with my artistic talents to create visually striking designs. Committed to continuous learning and growth, I aim to become a proficient and innovative graphic designer in the future.
+          </p>
+          <div class="action__btns">
+            <button class="about-me"><a href="#about">About Me</a></button>
+            <button class="portfolio"><a href="#dream-job">Dream Job</a></button>
+          </div>
+        </div>
+        <div class="image">
+          <img src="images/FJ_First_Pic.jpg" alt="profile" />
+        </div>
+      </div>
+    </div>
+
+    <!---- About ----->
+
+    <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+               <img src="images/FJ_Second_Pic.jpg">
+            </div>
+            <div class="about-col-2">
+              <h1 class="sub-title">About Me</h1>
+              <p>I'm Ferry Jane H. Ubante, your <span class="dream-job">FUTURE GRAPHIC DESIGNER</span></p>
+                <p>While I'm currently in my First year of Bachelor of Science in Information Technology at Laguna University.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                  </div>
+                  <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                      <li><span>Leadership Skills</span><br><br>- Inspire<br>- Influence<br>- Guide</li>
+                      <li><span>Decision Making</span><br><br>- Choose<br>- Act<br>- Decide</li>
+                      <li><span>Critical Thinking</span><br><br>- Analyze<br>- Reason<br>- Solve</li>
+                    </ul>
+                  </div>
+                  <div class="tab-contents" id="education">
+                    <ul>
+                      <li><span>Primary</span><br>Quinale Elementary School</li>
+                      <li><span>Secondary</span><br>Balian Integrated National High School</li>
+                      <li><span>College</span><br>Laguna State Polytechnic University Siniloan Campus</li>
+                    </ul>
+                  </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!---- Interest ----->
+    
+    <div id="interest">
+        <div class="container">
+          <h1>Hobbies & Interest</h1>
+          <div class="skill-list">
+              <div>
+                <h2 style="text-align: center;">Unlock Worlds, One Book at a Time</h2>
+                <img src="images/reading-books-3.gif"><br>
+                <a href="https://www.youtube.com/watch?v=kEGlJ2tlftU" target="_blank">Learn more</a>
+              </div>
+              <div>
+                <h2 style="text-align: center;">Savor the Culinary Journey</h2>
+                <img src="images/cook-foods.gif"><br>
+                <a href="https://www.youtube.com/watch?v=aopS3q6f1GY" target="_blank">Learn more</a>
+              </div>
+          </div>
+        </div>
+      </div>
+
+
+    <!---- Dream Job  ----->
+
+    <div id="dream-job"> 
+        <div class="container">
+          <h1>Dream Job</h1>
+          <div class="work-list">
+            <div class="work">
+              <img src="images/graphic-designer-1.gif">
+              <div class="caption">GRAPHIC DESIGNER</div>
+              <div class="layer">
+              </div>
+            </div>  
+            <div class="work">
+              <img src="images/graphic-designer-2.gif">
+              <div class="caption">GRAPHIC DESIGNER</div>
+              <div class="layer">
+              </div>
+            </div>
+            <div class="work">
+              <img src="images/graphic-designer-3.gif">
+              <div class="caption">GRAPHIC DESIGNER</div>
+              <div class="layer">
+              </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!---- Contact ----->
+    <div id="contact">
+        <div class="container">
+            <h1>Contact Me</h1>
+                 
+          <label for="fname">Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+      
+          <label for="lname">Email</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your email.." required>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+      
+          <input type="submit" value="Submit">
+        </div>
+        <div class="about-col-contact">
+            <img src="images/graphic-designer-4.gif">
+         </div>
+    </div>
+    <div class="copyright">
+        <p>Develop by <a href="https://www.facebook.com/FerryUbante" target="_blank">Ferry Jane H. Ubante </a>| Copyright &copy; 2024</p>
+      </div>
+      
+      <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+:root {
+  --primary-color: #a855f7;
+  --primary-color-dark: #9333ea;
+  --secondary-color: #ca8a04;
+  --text-dark: #1f2937;
+  --text-light: #6b7280;
+  --extra-light: #faf5ff;
+  --max-width: 1200px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 250, 250, 0.95);
+  z-index: 2;
+}
+
+.nav__content {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 1.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .logo a {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  transition: 0.3s;
+}
+nav .logo a:hover {
+  color: var(--primary-color-dark);
+}
+
+nav .checkbox {
+  display: none;
+}
+
+nav input {
+  display: none;
+}
+nav .checkbox i {
+  font-size: 2rem;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  transition: left 0.3s;
+}
+
+ul li a {
+  padding: 0.5rem 1rem;
+  border: 2px solid transparent;
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--text-dark);
+  transition: 0.3s;
+}
+
+ul li a:hover {
+  border-top-color: var(--secondary-color);
+  border-bottom-color: var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+.section {
+  background-color: var(--extra-light);
+}
+
+.section__container {
+  min-height: 100vh;
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.subtitle {
+  letter-spacing: 2px;
+  color: var(--text-light);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  margin-top: 80px;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 3rem;
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+}
+
+.title span {
+  font-weight: 600;
+}
+.typed-text{
+    color: #9333ea;
+    position: absolute;
+}
+
+.description {
+  line-height: 1.5rem;
+  color: var(--text-light);
+  margin-bottom: 2rem;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+.action__btns {
+  display: flex;
+  gap: 1rem;
+}
+
+.action__btns button {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 1rem 2rem;
+  outline: none;
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.about-me {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
+.about-me:hover {
+  background-color: var(--primary-color-dark);
+}
+
+.portfolio {
+  color: var(--primary-color);
+}
+
+.portfolio:hover {
+  background-color: var(--primary-color-dark);
+  color: #ffffff;
+}
+
+.image {
+  display: grid;
+  place-items: center;
+}
+
+.image img {
+  margin-top: 70px;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 5px #9333ea;;
+}
+
+.image img:hover{
+    box-shadow: 0 0 10px 5px pink;;
+  }
+
+@media (width < 750px) {
+  nav .checkbox {
+    display: block;
+  }
+
+  ul {
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 85px);
+    left: -100%;
+    top: 85px;
+    background-color: var(--extra-light);
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+  }
+
+  nav #check:checked ~ ul {
+    left: 0;
+  }
+
+  ul li a {
+    font-size: 1.25rem;
+  }
+
+  .section__container {
+    padding: 10rem 1rem 5rem 1rem;
+    text-align: center;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .image {
+    grid-area: 1/1/2/2;
+  }
+
+  .action__btns {
+    margin: auto;
+  }
+
+  .typed-text{
+    text-align: center;
+    font-size: 30px;
+    margin-left: -210px;
+}
+}
+
+/* ------ About ------ */
+#about{
+    padding: 90px 0;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .about-col-1{
+    flex-basis: 35%;
+  }
+  .about-col-1 img{
+    width: 350px;
+    height: 430px;
+    border-radius: 20px;
+    margin-left: 70px;
+    margin-top: 30px;
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.2);
+  }
+  .about-col-2{
+    flex-basis: 60%;
+  }
+  .sub-title{
+    padding-top: 30px;
+    font-size: 60px;
+  }
+
+  .about-col-2 p{
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 30px;
+  }
+  .dream-job{
+    color: #9333ea;
+    font-weight: 700;
+}
+  
+  .tab-titles{
+    display: flex;
+    margin: 20px;
+  }
+  .tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+  }
+  .tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #9333ea;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+  }
+  
+  .tab-links.active-link::after{
+    width: 50%;
+  }
+  
+  .tab-contents ul li{
+    list-style: none;
+    margin: 10px 0;
+  }
+  .tab-contents ul li span{
+    color: #9333ea;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .tab-contents{
+    display: none;
+  }
+  .tab-contents.active-tab{
+    display: inline;
+  }
+
+/* ------ Interest ------ */
+#interest{
+    padding: 90px 0;
+  }
+  .skill-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    grid-gap: 30px;
+    margin-top: 18px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  #interest img{
+    height: 200px;
+    width: 300px;
+    margin-left: 95px;
+    border-radius: 10px;
+    opacity: 0.8;
+    box-shadow: 3px 3px 7px 1px rgba(0, 0, 0, 0.2);
+  }
+  .skill-list div{
+    background: rgba(245, 245, 245, 0.2);
+    padding: 40px;
+    height: 350px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+    box-shadow: 5px 5px 10px 2px rgba(138, 136, 136, 0.5);
+  }
+  #interest h1{
+    font-size: 60px;  
+    margin: 20px;
+    margin-top: 25px;
+    margin-left: 100px; 
+  }
+  .skill-list div i{
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+
+  .skill-list div h2{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-left: 0;
+  }
+  .skill-list div a{
+      text-decoration: none;
+      color: #000;
+      font-size: 12px;
+      margin-top: 20px;
+      display: inline-block;
+      margin-left: 400px;
+  }
+  .skill-list div:hover{
+    background-color: rgba(171, 171, 171, 0.3);
+    transform: translateY(-10px);
+  }
+
+/* ------ Dream Job ------ */
+#dream-job{
+    padding: 80px 0;
+  }
+
+  #dream-job h1{
+    font-size: 60px;  
+    margin: 20px;
+    margin-top: 5px;
+    margin-left: 100px; 
+  }
+
+  .work-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+   }
+   .work{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.5);
+   }
+
+   .work img{
+    width: 380px;
+    height: 320px;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+   }
+
+   .work:hover img {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+   .caption {
+    background-color: rgba(0, 0, 0, 0.6); 
+    color: #fff;
+    padding: 15px; 
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    box-sizing: border-box; 
+}
+
+.work:hover .caption {
+    opacity: 1;
+}
+
+
+/* ------ Contact ------ */
+
+  #contact{
+    padding: 50px 0px;
+  }
+
+  #contact h1{
+    font-size: 60px;  
+    margin: 20px;
+    margin-left: 100px; 
+  }
+
+  #contact .container {
+    width: 70%;
+    margin-left: 35px;
+  }
+
+  #contact .about-col-contact img{
+    float: right;
+    margin-top: -245px;
+    margin-right: 15px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    resize: vertical;
+    margin-top: 1px;
+    height: 70px;
+  }
+  
+  input[type="submit"] {
+    background-color: #45a049;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #a855f7;
+  }
+
+  .copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: rgba(132, 136, 136, 0.2);
+    font-weight: 300;
+  }
+  .copyright a{
+    color: #222;
+    font-size: 15.5px;
+    font-weight: 510;
+  }
+
+  .copyright a:hover{
+    color: #000;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media only screen and (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  }
+      </style>
+
+      <script>
+        const portfolioButton = document.querySelector('.portfolio');
+const portfolioDiv = document.getElementById('portfolio');
+
+portfolioButton.addEventListener('click', () => {
+  portfolioDiv.scrollIntoView({ behavior: "smooth" });
+});
+      </script>
+
+</script>
+
+<script>
+const names = ["FUTURE GRAPHIC DESIGNER"];
+let typedIndex = 0;
+let isDeleting = false;
+let typingSpeed = 250;
+const backspeedMultiplier = 3;
+const pauseBeforeDelete = 250;
+
+const typedText = document.querySelector('.typed-text');
+
+function typeWriters() {
+  if (isDeleting) {
+    typedText.textContent = names[typedIndex].substring(0, typedText.textContent.length - 1);
+    if (typedText.textContent === '') {
+      isDeleting = false;
+      typedIndex++;
+      if (typedIndex >= names.length) {
+        typedIndex = 0;
+      }
+    }
+  } else {
+    typedText.textContent += names[typedIndex].charAt(typedText.textContent.length);
+    if (typedText.textContent === names[typedIndex]) {
+      setTimeout(() => {
+        isDeleting = true;
+      }, pauseBeforeDelete);
+    }
+  }
+
+  setTimeout(typeWriters, typingSpeed / backspeedMultiplier);
+}
+
+typeWriters();
+  </script>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link")
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab")
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+
+  </script>
+</body>
+</html>
